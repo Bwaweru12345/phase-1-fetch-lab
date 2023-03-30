@@ -1,5 +1,3 @@
-28 lines (18 sloc)  544 Bytes
-
 document.addEventListener('DOMContentLoaded', function() {
   fetchBooks();
 });
@@ -11,7 +9,7 @@ function fetchBooks() {
   .then(res => res.json())
   .then(data => renderBooks(data))
   return returnFetch;
- 
+
 
 
 }
